@@ -62,7 +62,6 @@ const Profile = () => {
 
     return (
         <div className="profile-container">
-            {/* ടോസ്റ്റ് കാണിക്കാൻ ഈ കണ്ടെയ്നർ അത്യാവശ്യമാണ് */}
             <ToastContainer 
                 position="top-right" 
                 autoClose={3000} 

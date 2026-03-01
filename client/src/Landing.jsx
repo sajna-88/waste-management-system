@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Landing = () => {
     return (
         <div className="landing-wrapper">
-            {/* Navbar */}
             <nav className="navbar">
                 <div className="logo">♻️ EcoWaste</div>
                 <ul className="nav-links">
@@ -17,7 +16,6 @@ const Landing = () => {
                 </ul>
             </nav>
 
-            {/* Hero Section */}
             <header className="hero-section" id="home">
                 <div className="hero-content">
                     <h1>Clean Environment, <br /> <span>Green Future</span></h1>
@@ -31,13 +29,11 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className="hero-image">
-                    {/* ഒരു ഇമേജ് ഉണ്ടെങ്കിൽ ഇവിടെ ചേർക്കാം, അല്ലെങ്കിൽ ഒരു ഇലസ്ട്രേഷൻ */}
                     <img src="https://cdn-icons-png.flaticon.com/512/3299/3299935.png" alt="Eco Illustration" />
                 </div>
             </header>
            
 
-            {/* Footer */}
             <footer className="footer">
                 <div className="footer-content">
                     <p>&copy; 2024 EcoWaste Management. All rights reserved.</p>

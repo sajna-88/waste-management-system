@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className="about-wrapper">
-            {/* Navbar (Landing page-ൽ ഉള്ളത് പോലെ തന്നെ) */}
             <nav className="navbar">
                 <div className="logo">♻️ EcoWaste</div>
                 <ul className="nav-links">
@@ -24,14 +23,11 @@ const About = () => {
                     </li>
                 </ul>
             </nav>
-
-            {/* Hero Section */}
             <div className="about-hero">
                 <h1>About Our <span>Mission</span></h1>
                 <p>Leading the way towards a cleaner, greener, and more sustainable future.</p>
             </div>
 
-            {/* Mission & Vision Section */}
             <div className="about-content">
                 <div className="about-card">
                     <div className="card-icon">🎯</div>
@@ -52,7 +48,6 @@ const About = () => {
                 </div>
             </div>
 
-            {/* Why Choose Us Section */}
             <div className="about-details">
                 <div className="details-text">
                     <h2>Why This System Matters?</h2>
@@ -87,8 +82,6 @@ const About = () => {
                     <p>Eco Friendly</p>
                 </div>
             </div>
-
-            {/* Footer (Optional: Landing page-ൽ ഉള്ളത് പോലെ വേണമെങ്കിൽ ചേർക്കാം) */}
             <footer className="footer">
                 <div className="footer-content">
                     <p>&copy; 2024 EcoWaste Management. All rights reserved.</p>

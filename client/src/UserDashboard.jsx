@@ -82,7 +82,6 @@ const UserDashboard = () => {
             <header className="dashboard-header">
                 <h2>Welcome, {username || "User"}!</h2>
                 <div className="header-actions">
-                    {/* പുതുതായി ചേർത്ത Schedule ബട്ടൺ */}
                     <button className="schedule-btn" onClick={() => navigate('/Sch')}>
                         Schedule
                     </button>

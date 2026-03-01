@@ -90,8 +90,6 @@ const AdminDashboard = () => {
     return (
         <div className="admin-container">
             <ToastContainer position="top-right" autoClose={3000} theme="colored"/>
-
-            {/* Logout Modal Starts */}
             {showLogoutModal && (
                 <div className="modal-overlay">
                     <div className="logout-modal">
@@ -104,7 +102,6 @@ const AdminDashboard = () => {
                     </div>
                 </div>
             )}
-            {/* Logout Modal Ends */}
 
             <header className="admin-header">
                 <h2>Admin Panel - Waste Management</h2>

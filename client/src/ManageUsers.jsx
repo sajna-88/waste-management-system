@@ -70,7 +70,6 @@ const ManageUsers = () => {
                                             </span>
                                         </td>
                                         <td className="action-cell">
-                                            {/* Change Role ബട്ടൺ ഇവിടെ നിന്ന് ഒഴിവാക്കി */}
                                             <button 
                                                 className="delete-user-btn" 
                                                 onClick={() => handleDelete(user._id)}

@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
     return (
         <div className="contact-wrapper">
-            {/* Navbar (Landing page-ൽ ഉള്ളത് പോലെ തന്നെ) */}
             <nav className="navbar">
                 <div className="logo">♻️ EcoWaste</div>
                 <ul className="nav-links">
@@ -25,13 +24,11 @@ const Contact = () => {
                 </ul>
             </nav>
 
-            {/* Header Section */}
             <div className="contact-header">
                 <h1>Contact Us</h1>
                 <p>Have questions? Provide your email and we'll reach out to you!</p>
             </div>
 
-            {/* Info Cards Section */}
             <div className="contact-cards-container">
                 <div className="info-card">
                     <div className="icon-box">
@@ -58,7 +55,6 @@ const Contact = () => {
                 </div>
             </div>
 
-            {/* Footer */}
             <footer className="footer" style={{marginTop: '50px'}}>
                 <div className="footer-content">
                     <p>&copy; 2024 EcoWaste Management. All rights reserved.</p>

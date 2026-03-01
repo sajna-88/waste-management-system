@@ -1,6 +1,5 @@
 const User = require("../schema/userschema");
 
-// യൂസറുടെ വിവരങ്ങൾ എടുക്കാൻ
 const getUserProfile = async (req, res) => {
     try {
         const user = await User.findById(req.params.userId);
@@ -10,8 +9,6 @@ const getUserProfile = async (req, res) => {
         res.status(500).json({ message: "Error fetching profile" });
     }
 };
-
-// യൂസർ വിവരങ്ങൾ അപ്‌ഡേറ്റ് ചെയ്യാൻ
 const updateUserProfile = async (req, res) => {
     try {
         const { username, email, password } = req.body;

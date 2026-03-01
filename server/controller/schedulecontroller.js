@@ -29,5 +29,4 @@ const getSchedules = async (req, res) => {
     }
 };
 
-// കയറ്റുമതി (Export) ഇങ്ങനെ മാത്രം മതി
 module.exports = { addSchedule, getSchedules };
